@@ -55,13 +55,19 @@ GITHUB_SECRET=
 > URL should be <a href="#ngrok">NGROK</a> URL.
 > For KEYS AND SECRET <a href="#keys">refer this</a>
 
-4. Inside client module, open src/components/config/keys.js and write NGROK HTTPS URL
+4. Open client module and install dependencies
+
+```
+cd client && npm i
+```
+
+5. Inside client module, open src/components/config/keys.js and write NGROK HTTPS URL
 
 ```
 export const API_URL = process.env.NODE_ENV === "production" ? "" : "NGROK_URL";
 ```
 
-5. Run client and server
+6. Run client and server
 
 ```
 npm start
@@ -77,13 +83,13 @@ As we are working on localhost, It is not possible to send https request from ht
 
 Here I'll use second method.
 
-6. Open your terminal and install ngrok globally.
+7. Open your terminal and install ngrok globally.
 
 ```
 npm i -g ngrok
 ```
 
-7. Run ngrok
+8. Run ngrok
 
 ```
 ngrok http {port_number}
