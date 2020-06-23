@@ -1,4 +1,4 @@
-# React-Node Social Login Auth App for Google, Facebook and Github.
+# Social Login Auth App for Google, Facebook and Github.
 
 ## Social Login
 
