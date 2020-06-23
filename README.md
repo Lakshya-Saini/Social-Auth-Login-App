@@ -52,8 +52,8 @@ GITHUB_SECRET=
 ```
 
 > SESSION_SECRET should be a unique key. You can write any valid string as your key.
-> URL should be <a href="NGROK">NGROK</a> URL.
-> For KEYS AND SECRET <a href="KEYS-AND-SECRET">refer this</a>
+> URL should be <a href="#ngrok">NGROK</a> URL.
+> For KEYS AND SECRET <a href="#keys">refer this</a>
 
 4. Inside client module, open src/components/config/keys.js and write NGROK HTTPS URL
 
@@ -94,3 +94,25 @@ ngrok http {port_number}
 You'll get a HTTPS URL like this - **https://5f6dc6dcd.ngrok.io**
 
 > Paste this URL in server/.env and in client/src/components/config/keys.js
+
+## KEYS
+
+Here are the links from where you can get instructions on how to get your key and secret.
+
+### GOOGLE
+
+```
+https://analytify.io/get-client-id-client-secret-developer-api-key-google-developers-console-application/
+```
+
+### FACEBOOK
+
+```
+https://developers.facebook.com/docs/apps/register/
+```
+
+### GITHUB
+
+```
+https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/
+```
